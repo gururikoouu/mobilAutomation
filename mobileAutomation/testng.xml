@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorApp">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+	<parameter name="deviceName" value="nexus" />
+	<parameter name="version" value="4.4.2" />
+	<parameter name="platformName" value="Android" />
+	<parameter name="appPackage" value="com.android.calculator2" />
+	<parameter name="appActivity" value="com.android.calculator2.Calculator" />
+	<parameter name="remoteUrl" value="http://127.0.0.1:4723/wd/hub" />
+	<test name="CalculatorAppTC">
+		<classes>
+			<class name="org.mobAuto.mobileAutomation.CalculatorAuto" />
+		</classes>
+	</test>
+</suite>
