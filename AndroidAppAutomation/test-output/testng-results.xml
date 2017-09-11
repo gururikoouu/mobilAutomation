@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10731" started-at="2017-09-11T06:57:10Z" finished-at="2017-09-11T06:57:21Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10731" started-at="2017-09-11T06:57:10Z" finished-at="2017-09-11T06:57:21Z">
+      <class name="org.mobAuto.mobileAutomation.CalculatorAuto">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:org.mobAuto.mobileAutomation.CalculatorAuto@587d1d39]" name="setUp" is-config="true" duration-ms="1870" started-at="2017-09-11T12:27:10Z" finished-at="2017-09-11T12:27:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nexus]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.4.2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.verydice]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.verydice.MainActivity]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:org.mobAuto.mobileAutomation.CalculatorAuto@587d1d39]" name="login" duration-ms="8850" started-at="2017-09-11T12:27:12Z" finished-at="2017-09-11T12:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:org.mobAuto.mobileAutomation.CalculatorAuto@587d1d39]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-09-11T12:27:21Z" finished-at="2017-09-11T12:27:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.mobAuto.mobileAutomation.CalculatorAuto -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
